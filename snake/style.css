@@ -1,0 +1,46 @@
+.game {
+    height: 300px;
+    width: 324px;
+    margin: 50px auto;
+    background-color: rgb(177, 171, 171);
+    border-radius: 7px;
+}
+
+canvas {
+    border: 2px solid black;
+    margin: 10px 10px;
+
+}
+
+.task {
+    margin: 10px;
+    display: flex;
+}
+
+.counter {
+
+    height: 30px;
+    width: 200px;
+    margin: 0 62px;
+    font-size: 1.8rem;
+    background-color: black;
+    color: rgb(117, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+button {
+    height: 20px;
+    width: 60px;
+    margin: 6px 132px;
+    color: blue;
+}
+
+select {
+    position: relative;
+    margin: 0 14px;
+    transform: translateY(-25px);
+
+}
