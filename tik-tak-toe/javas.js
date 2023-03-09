@@ -1,6 +1,6 @@
 let pole = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let who_turn = true;
-
+let ta;
 
 const out_win = document.querySelector(".screen p");
 
@@ -23,9 +23,8 @@ document.querySelector(".buttons").onclick = (event) => {
     }
   }
 
-  let ta;
   // перетворення черги в цифру для перевірки
-  ta = who_turn ? 1 : 2;
+  ta = who_turn ? 2 : 1;
 
   // Перевірка чи є переможець і якщо знайдене переможна комбінація то вона занесецця в нулеве місце масива
   let n = 0;
@@ -45,6 +44,8 @@ document.querySelector(".buttons").onclick = (event) => {
   )
     pole[0] = ta;
   //виграшан комбінація на іскосок заноситься в нулеву позиція
+
+
 
   // вивід на екран інфу
   switch (pole[0]) {
