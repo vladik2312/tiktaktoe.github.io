@@ -1,0 +1,48 @@
+.game {
+    margin: 70px auto;
+    width: 210px;
+    background: #5337af;
+    font-family: Arial, serif;
+    border-radius: 6px;
+}
+
+.screen {
+    margin-left: 5px;
+    padding-top: 3px;
+    text-align: center;
+    line-height: center;
+    font-size: 1.5rem;
+
+}
+.screen p{
+    height: 35px;
+    width: 200px;
+    background: #bd74cf;
+    border-radius: 20%;
+
+    text-emphasis: center;
+}
+.btn {
+    border-radius: 10%;
+    text-align: center;
+    border: 1px /* width */ solid /* style */ black; /* color */
+    font-size: 3.3rem;
+    height: 68px;
+    width: 68px;
+    cursor: pointer;
+    background: #9f9f9f;
+}
+
+.btn:hover {
+    filter: brightness(90%);
+}
+
+.btn:active {
+    filter: brightness(110%);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+}
