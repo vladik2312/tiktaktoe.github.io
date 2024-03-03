@@ -1,3 +1,6 @@
+body {
+    background-color: SlateGrey;
+}
 .game {
     margin: 70px auto;
     width: 210px;
